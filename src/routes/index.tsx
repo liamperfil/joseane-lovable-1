@@ -36,7 +36,7 @@ const courses: Course[] = [
 const skills = [
   "Direção criativa", "Publicidade & Propaganda", "Produção audiovisual",
   "Design gráfico", "Storytelling", "Escrita criativa",
-  "Produção cultural", "Comunicação estratégica", "Mobile filmmaking",
+  "Produção cultural", "SOCIAL MEDIA", "Mobile filmmaking",
 ];
 
 function Resume() {
@@ -65,7 +65,7 @@ function Resume() {
         <header className="grid grid-cols-1 gap-8 border-y-2 border-ink py-10 md:grid-cols-12 md:py-16">
           <div className="md:col-span-8">
             <p className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-accent">
-              Publicidade · Audiovisual · Cultura
+              PUBLICIDADE · AUDIOVISUAL · PRESENÇA DIGITAL
             </p>
             <h1 className="text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
               Joseane <br />
@@ -73,7 +73,7 @@ function Resume() {
               <span className="text-ink">.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Publicitária em formação, produtora audiovisual e designer gráfica.
+              Publicitária, produtora audiovisual e designer gráfica.
               Conto histórias que conectam marcas, pessoas e território — da
               ideia à tela, do papel à rua.
             </p>
@@ -118,7 +118,7 @@ function Resume() {
                 </li>
                 <li className="flex items-start gap-3">
                   <IdCard className="mt-0.5 size-4 shrink-0 text-accent" />
-                  <span>CNH categoria B · Brasileira</span>
+                  <span>@josevmaciel</span>
                 </li>
               </ul>
             </div>

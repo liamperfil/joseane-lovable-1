@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, Phone, MapPin, IdCard, GraduationCap, Sparkles, ArrowUpRight, Download } from "lucide-react";
+import { Mail, Phone, MapPin, IdCard, GraduationCap, Sparkles, ArrowUpRight, Download, Printer } from "lucide-react";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -41,6 +42,15 @@ const skills = [
 function Resume() {
   return (
     <main className="min-h-screen px-4 py-10 md:px-10 md:py-16">
+      <button
+        onClick={() => window.print()}
+        className="no-print fixed bottom-6 right-6 z-50 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-medium text-paper shadow-lg transition-all hover:bg-accent"
+        aria-label="Imprimir em PDF"
+      >
+        <Printer className="size-4" />
+        Imprimir em PDF
+      </button>
+
       <div className="mx-auto max-w-6xl">
         {/* Top meta bar */}
         <div className="mb-8 flex flex-wrap items-center justify-between gap-3 font-mono text-xs uppercase tracking-widest text-muted-foreground">
